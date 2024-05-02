@@ -8,8 +8,7 @@ public class ugpt_demoEditorTarget : TargetRules
 	public ugpt_demoEditorTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
-		DefaultBuildSettings = BuildSettingsVersion.V2;
-		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1;
+		DefaultBuildSettings = BuildSettingsVersion.Latest;
 		ExtraModuleNames.Add("ugpt_demo");
 	}
 }
